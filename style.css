@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 3px solid grey;
+    background-color: antiquewhite;
+    margin: 5vh 5vw;
+    padding: 0 2vw;
+}
+
+.description {
+    font-family: Arial;
+}
+
+.display {
+    border: 1px solid grey;
+    height: 5vh;
+    background-color: white;
+    padding-right: 1vw;
+    margin: 2vh 0;
+}
+
+#content {
+    text-align: right;
+}
+
+.edit {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.operator {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.numpad {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 2vh;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid antiquewhite;
+}
+
+button on:hover {
+    cursor: pointer;
+}
